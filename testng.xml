@@ -1,0 +1,13 @@
+<suite name="Banking Suite" parallel="methods" thread-count="2">
+
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="Banking Tests">
+        <classes>
+            <class name="tests.BankingTest"/>
+        </classes>
+    </test>
+
+</suite>
